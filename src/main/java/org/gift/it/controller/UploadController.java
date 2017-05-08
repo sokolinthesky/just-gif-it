@@ -1,11 +1,11 @@
 package org.gift.it.controller;
 
+import com.justgifit.services.ConverterService;
+import com.justgifit.services.GifEncoderService;
+import com.justgifit.services.VideoDecoderService;
 import com.madgag.gif.fmsware.AnimatedGifEncoder;
 import org.bytedeco.javacv.FFmpegFrameGrabber;
 import org.bytedeco.javacv.FrameGrabber;
-import org.gift.it.services.ConverterService;
-import org.gift.it.services.GifEncoderService;
-import org.gift.it.services.VideoDecoderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
