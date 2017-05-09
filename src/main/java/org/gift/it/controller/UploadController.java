@@ -59,7 +59,7 @@ public class UploadController {
                 (float) frameGrabber.getFrameRate(), output);
         converterService.toAnimatedGif(frameGrabber, gifEncoder, start, end, speed);
 
-        log.info("Saved generated gif to ", output.toString());
+        log.info("Saved generated gif to " + output.toString());
 
         return output.getFileName().toString();
     }
