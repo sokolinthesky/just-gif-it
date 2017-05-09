@@ -1,6 +1,6 @@
 ## About
 Just-Gif-It <br>
-Spring Boot application allows to convert a video to a gif
+Spring Boot application allows to convert video to gif
  
 ## How to run
 `maven clean-instal`<br>
