@@ -4,7 +4,7 @@ Spring Boot application allows to convert video to gif
  
 ## How to run
 `maven clean-instal`<br>
-`java -jar *.jar`
+`mvn spring-boot:run`
 ### Properties
 * `com.justgifit.create-result-dir #true/false`
 * `com.justgifit.optimize #true/false`
